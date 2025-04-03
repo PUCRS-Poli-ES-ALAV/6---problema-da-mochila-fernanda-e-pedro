@@ -10,6 +10,6 @@ def solve(num_produtos: int, capacidade_mochila: int, items: list[tuple[int, int
 
     return max_tab[num_produtos][capacidade_mochila]
 
-
-res = solve(3, 5, [(2, 3), (3, 4), (4, 5)])
+items = [(56, 50), (59, 50), (80, 64), (64, 46), (75, 50), (17, 5)]
+res = solve(6, 190, items)
 print(res)
